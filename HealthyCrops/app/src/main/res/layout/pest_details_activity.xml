@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/pest_details_pest_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:text="Your pest name will be here..." />
+
+    <ImageView
+        android:id="@+id/pest_details_pest_image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/pest_details_pest_name_tv"
+        android:src="@drawable/barisal" />
+    <TextView
+        android:id="@+id/textView_pest_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textColor="#FFFF00"
+        android:text="details text"
+        android:layout_below="@+id/pest_details_pest_image_iv"
+        android:gravity="center"/>
+</RelativeLayout>

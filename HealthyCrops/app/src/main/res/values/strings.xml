@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Healthy Crops</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="gallery">"Gallery"</string>
+    <string name="progress_title">Processing...</string>
+    <string name="dhaka">Dhaka</string>
+    <string name="chittagong">Chittagong</string>
+    <string name="barisal">Barisal</string>
+    <string name="sylhet">Sylhet</string>
+    <string name="rajsahi">Rajsahi</string>
+    <string name="khulna">Khulna</string>
+    <string name="mymensingh">Mymensingh</string>
+</resources>

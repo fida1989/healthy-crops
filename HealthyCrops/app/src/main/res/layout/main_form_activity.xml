@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+
+         >
+
+        <EditText
+            android:id="@+id/editTextNamePest"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:background="@drawable/top_edittext_bg"
+            android:hint="name of pest" />
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:ems="10"
+            android:background="#e2e2e2"
+            android:hint="your address" />
+        <EditText
+            android:id="@+id/editTextCropAffected"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:textColor="#000000"
+            android:ems="10"
+            android:background="#e2e2e2"
+            android:hint="crop affected" />
+
+        <TextView
+            android:id="@+id/textViewLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:ems="13"
+            android:textColor="#000000"
+            android:background="#e2e2e2"
+            android:text="Device Latitude" />
+
+        <TextView
+            android:id="@+id/textViewLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:ems="13"
+            android:textColor="#000000"
+            android:background="#e2e2e2"
+            android:text="Device Longitude" />
+        <EditText
+            android:id="@+id/editTextPestAttackTime"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:textColor="#000000"
+            android:ems="10"
+            android:background="#e2e2e2"
+            android:hint="pest attack time" />
+        <TextView
+            android:id="@+id/textViewCurrentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="13"
+            android:textColor="#000000"
+            android:background="#e2e2e2"
+            android:text="Current Date" />
+        <EditText
+            android:id="@+id/editTextCropPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:textColor="#000000"
+            android:background="#e2e2e2"
+            android:ems="10"
+            android:hint="affected crop percentage" />
+        <EditText
+            android:id="@+id/editTextControlInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:textColor="#000000"
+
+            android:ems="10"
+            android:background="@drawable/bottom_edittext_bg"
+            android:hint="control/eliminate pest" />
+
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/upload_photo"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/imageview_border"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:id="@+id/buttonFormSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>
+
+    </ScrollView>

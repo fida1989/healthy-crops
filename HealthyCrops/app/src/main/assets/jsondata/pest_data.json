@@ -1,0 +1,40 @@
+{
+  "details": [
+    {
+      "pest_id": "1",
+      "pest_name": "Alfalfa Caterpillar",
+      "pest_image": "file:///android_asset/images/pest_1.png",
+      "pest_description": "Lorem ipsum dolor sit amet, ad commune nominati mea, ea qui elit delectus democritum. Te dolor disputando sit. Et posse ponderum vel. Mei eu vitae consul phaedrum. Ad sit melius fabulas appellantur."
+    },
+    {
+      "pest_id": "2",
+      "pest_name": "Corn Aphids",
+      "pest_image": "file:///android_asset/images/pest_2.jpg",
+      "pest_description": "Second Lorem ipsum dolor sit amet, ad commune nominati mea, ea qui elit delectus democritum. Te dolor disputando sit. Et posse ponderum vel. Mei eu vitae consul phaedrum. Ad sit melius fabulas appellantur."
+    },
+    {
+     "pest_id": "3",
+     "pest_name": "Spider Mites",
+     "pest_image": "file:///android_asset/images/pest_3.jpg",
+     "pest_description": "Third Lorem ipsum dolor sit amet, ad commune nominati mea, ea qui elit delectus democritum. Te dolor disputando sit. Et posse ponderum vel. Mei eu vitae consul phaedrum. Ad sit melius fabulas appellantur."
+    },
+    {
+      "pest_id": "4",
+      "pest_name": "Cutworms",
+      "pest_image": "file:///android_asset/images/pest_4.jpg",
+      "pest_description": "Fourth Lorem ipsum dolor sit amet, ad commune nominati mea, ea qui elit delectus democritum. Te dolor disputando sit. Et posse ponderum vel. Mei eu vitae consul phaedrum. Ad sit melius fabulas appellantur."
+    },
+    {
+      "pest_id": "5",
+      "pest_name": "Beet armyworm",
+      "pest_image": "file:///android_asset/images/pest_5.jpeg",
+      "pest_description": "Fifth Lorem ipsum dolor sit amet, ad commune nominati mea, ea qui elit delectus democritum. Te dolor disputando sit. Et posse ponderum vel. Mei eu vitae consul phaedrum. Ad sit melius fabulas appellantur."
+    },
+    {
+          "pest_id": "6",
+          "pest_name": "AphidWatch",
+          "pest_image": "file:///android_asset/images/pest_5.jpeg",
+          "pest_description": "Sixth Lorem ipsum dolor sit amet, ad commune nominati mea, ea qui elit delectus democritum. Te dolor disputando sit. Et posse ponderum vel. Mei eu vitae consul phaedrum. Ad sit melius fabulas appellantur."
+        }
+  ]
+}
